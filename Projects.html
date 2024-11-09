@@ -1,0 +1,310 @@
+<html style="background-color: black">
+    <head>
+        <style>
+            /*This is for the BIO and TEAM pages*/
+/*.container {
+    margin-top: 100px
+}*/
+
+.box1 img,
+.box1:after,
+.box1:before {
+    width: 100%;
+    transition: all .3s ease 0s
+}
+
+.box1 .icon,
+.box2,
+.box3,
+.box4,
+.box5 .icon li a {
+    text-align: center
+}
+
+    .box10:after,
+    .box10:before,
+    .box1:after,
+    .box1:before,
+    .box2 .inner-content:after,
+    .box3:after,
+    .box3:before,
+    .box4:before,
+    .box5:after,
+    .box5:before,
+    .box6:after,
+    .box7:after,
+    .box7:before {
+        content: ""
+    }
+
+.box1,
+.box11,
+.box12,
+.box13,
+.box14,
+.box16,
+.box17,
+.box18,
+.box2,
+.box20,
+.box21,
+.box3,
+.box4,
+.box5,
+.box5 .icon li a,
+.box6,
+.box7,
+.box8 {
+    overflow: hidden
+}
+
+    .box1 .title,
+    .box10 .title,
+    .box4 .title,
+    .box7 .title {
+        letter-spacing: 1px
+    }
+
+    .box3 .post,
+    .box4 .post,
+    .box5 .post,
+    .box7 .post {
+        font-style: italic
+    }
+
+body {
+    background-color: #f1f1f2
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-40 {
+    margin-top: 40px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.box1 .icon,
+.box1 .title {
+    margin: 0;
+    position: absolute
+}
+
+.box1 {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    position: relative
+}
+
+    .box1:after,
+    .box1:before {
+        height: 50%;
+        background: rgba(0, 0, 0, .5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        transform-origin: 100% 0;
+        transform: rotateZ(90deg)
+    }
+
+    .box1:after {
+        top: auto;
+        bottom: 0;
+        transform-origin: 0 100%
+    }
+
+    .box1:hover:after,
+    .box1:hover:before {
+        transform: rotateZ(0)
+    }
+
+    .box1 img {
+        height: auto;
+        transform: scale(1) rotate(0)
+    }
+
+    .box1:hover img {
+        filter: sepia(80%);
+        transform: scale(1.3) rotate(10deg)
+    }
+
+    .box1 .title {
+        font-size: 19px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px #004cbf;
+        bottom: 10px;
+        left: 10px;
+        opacity: 0;
+        z-index: 2;
+        transform: scale(0);
+        transition: all .5s ease .2s
+    }
+
+    .box1:hover .title {
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    .box1 .icon {
+        padding: 7px 5px;
+        list-style: none;
+        background: #004cbf;
+        border-radius: 0 0 0 10px;
+        top: -100%;
+        right: 0;
+        z-index: 2;
+        transition: all .3s ease .2s
+    }
+
+    .box1:hover .icon {
+        top: 0
+    }
+
+    .box1 .icon li {
+        display: block;
+        margin: 10px 0
+    }
+
+        .box1 .icon li a {
+            display: block;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 10px;
+            font-size: 18px;
+            color: #fff;
+            transition: all .3s ease 0s
+        }
+
+.box2 .icon li a,
+.box3 .icon a:hover,
+.box4 .icon li a:hover,
+.box5 .icon li a,
+.box6 .icon li a {
+    border-radius: 50%
+}
+
+.box1 .icon li a:hover {
+    color: #fff;
+    box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff
+}
+
+@media only screen and (max-width:990px) {
+    .box1 {
+        margin-bottom: 30px
+    }
+}
+
+        /* The alert message box */
+        .alert {
+            padding: 20px;
+            background-color: darkred; /* Red */
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        /* The close button */
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            /* When moving the mouse over the close button */
+            .closebtn:hover {
+                color: black;
+            }
+        </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FC49M41B6J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FC49M41B6J');
+    </script>
+    </head>
+<body style="background-color: black">
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Project links and descriptions coming soon.
+    </div>
+
+    <br />
+
+    <div class="container">
+        <div class="row mt-40">
+            <div class="col-md-4 col-sm-6">
+                @* <h2 style="font-family: 'Raleway', sans-serif; color: navajowhite;">TillemaDev</h2> *@
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">TillemaDev</h3></a>
+                <div class="box1" style="border-radius: 8px;">
+                    <img src="https://lh3.googleusercontent.com/pw/ADCreHfvk5GjsOlYc5mAlfy0pMNepIqDXoei-qhMdEs82HFIUxMioNjVR1cEYR0H44onAhsSO_1B4HwIVhwobiEKZ0ZvDbztDUJEE-Lp8zKT8odMHJjdLWiMtMH73_rZyAG5zJNzarZWGK4oCz3qerCFXVq2=w911-h911-s-no-gm?authuser=0" alt="TillemaDev">
+                    <h3 class="title">TillemaDev</h3>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                @* <h2 style="font-family: 'Raleway', sans-serif; color: navajowhite;">FORM Software</h2> *@
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">FORM Software</h3></a>
+                <div class="box1" style="border-radius: 8px;">
+                    <img src="https://lh3.googleusercontent.com/pw/ADCreHfOYn2gYqE9Q5Xp2MV10AvT6jrsSurgkzUk63Jy7DvxP7y9OmTKSoVavPHzC_FpqLSbpoP_erHkI0jAOyhmhKvQD5RHLxvd3slxWpWirN3WgLpSPdojiWvSeUWWEL8GC1OFanRK74bF8f4C1HOMZLgR=w911-h911-s-no-gm?authuser=0" alt="FORM Software&trade;">
+                    <h3 class="title">FORM Software&trade;</h3>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">Ambient Platforms</h3></a>
+                <div class="box1" style="border-radius: 8px;">
+                    <img src="https://lh3.googleusercontent.com/pw/ADCreHcfb7gIutpR-cMntXH5upC5MryJhRx8AhrAQttpbinDBUav3vNk5TyeGLIjYSzjps7Rm96M9AumY_qNpiVI_76ptQd3vB7_XJk2OjSE1WU_RKoPkhqMjb4Z_TIKwYJs7yUWrmfcpKwoTF2nrsN2yhKt=w911-h911-s-no-gm?authuser=0" alt="Ambient Platforms&trade;">
+                    <h3 class="title">Ambient Platforms&trade;</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-40">
+            <div class="col-md-4 col-sm-6">
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">RESS1</h3></a>
+                <div class="box1" style="border-radius: 8px;">
+                    <img src="https://lh3.googleusercontent.com/pw/ADCreHeBFgue2odYkj56lpFLOhhT5Iprh1oPqWSR-Qoo-qj0m4lskP__yjC7C5cdqUEEat1Y-EP1sTl76-QaOHbgN5Pabk8VDj4ELypbCOHRd2svgttC7WvIzIQmAvCnt3GOtC-g55HGPnSAu0JCEoxWnMTq=w911-h911-s-no-gm?authuser=0" alt="RESS1 (Real Estate Strategy Software V1)">
+                    <h3 class="title">RESS1</h3>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">TipsyAPI</h3></a>
+                <div class="box1" style="border-radius: 8px;">
+                    <img src="https://images.pexels.com/photos/12569413/pexels-photo-12569413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="TipsyAPI">
+                    <h3 class="title">TipsyAPI</h3>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a style="text-decoration:none" href="#"><h3 style="font-family: 'Raleway', sans-serif; color: white; font-size: 40px; font-weight: 400; text-decoration: unset;">CHOICE, LLP</h3></a>
+                <div class="box1">
+                    <div class="box1" style="border-radius: 8px;">
+                        <img src="https://lh3.googleusercontent.com/pw/ABLVV866ZrRmZXIpKYujdj1N7f5_Xzo43KlNRfw3fIOoaH8G_c6rrftnVufRVh3D5g2t88OZv5QoHhOxvLTyIDDucP6w90DFN3bl1E_ZUi_zb5Gqt9-gJ0F5NhXxkfXZxQzPzCu8mNSAJnfbun8JETL0FRyV=w455-h455-s-no-gm?authuser=0" alt="CHOICE, LLP">
+                        <h3 class="title">CHOICE, LLP&trade;</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br />
+</body>
+</html>
